@@ -1,2 +1,8 @@
 # python_regex_generator
-A C++ program to generate Python regex from a list of strings
+
+This programs allows people to generate a python re compatible regex with a fast C++ program.
+The input strings must be encoded in Ascii.
+
+# Example
+g++ -O3 regex_generator.cpp 
+
